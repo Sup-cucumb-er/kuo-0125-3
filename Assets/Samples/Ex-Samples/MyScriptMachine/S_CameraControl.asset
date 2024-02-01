@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: S_CameraControl
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Camera
+      Control","summary":null,"pan":{"x":255.0,"y":73.25272},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"key":{"$content":"LeftArrow","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-199.0,"y":-57.0},"guid":"8d53d8de-1b80-453e-a1d9-1b158e94a08b","$version":"A","$type":"Unity.VisualScripting.OnKeyboardInput","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"TheSphere","$type":"System.String"},"object":null},"position":{"x":-110.0,"y":106.0},"guid":"14c31342-7769-4fb4-b437-83c64f068ca6","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"argumentCount":0,"defaultValues":{"name":{"$content":"SphMoveLeft","$type":"System.String"},"target":null},"position":{"x":86.0,"y":-75.0},"guid":"64dbfb19-605c-4643-82ee-364bc7c14fb9","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"e9a2380e-7d24-433b-900d-350644482357","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"79b65c26-699e-4064-bcc3-067d73dd7149","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
